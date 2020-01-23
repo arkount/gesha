@@ -1,8 +1,8 @@
 /* 
 
-TemplateMo - Finance Business
+ Finance Business
 
-https://templatemo.com/tm-545-finance-business
+https://-finance-business
 
 */
 
@@ -437,11 +437,11 @@ header .navbar {
 }
 
 .Modern-Slider .item-2 .img-fill {
-    background-image: url(../images/slide_02.jpg);
+    background-image: url(../images/slide02.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-    background-image: url(../images/slide_03.jpg);
+    background-image: url(../images/slide03.jpg);
 }
 
 .Modern-Slider .NextArrow {
@@ -534,7 +534,7 @@ ul.slick-dots {
 }
 
 .Modern-Slider .item.slick-active h4 {
-    animation: fadeInLeft 1s both 1.0s;
+    animation: fadeInLeft 1s both 1s;
 }
 
 .Modern-Slider .item.slick-active {
@@ -571,15 +571,15 @@ ul.slick-dots {
     display: block;
     overflow: hidden;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .slick-list:focus {
-    outline: none
+    outline: none;
 }
 
 .slick-list.dragging {
-    cursor: hand
+    cursor: hand;
 }
 
 .slick-slider .slick-track,
@@ -1527,19 +1527,23 @@ gallary
 
 */
 
-.gallery {
-    margin-top: 10px;
-    margin: 60px;
-    border: 3px solid #ccc;
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
     float: left;
-    width: 200px;
+    width: 210px;
 }
 
-.gallery:hover {
-    border: 1px solid #777;
+div.gallery:hover {
+    border: 0px solid #777;
 }
 
-.gallery img {
-    width: 400px;
-    height: 300px;
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
